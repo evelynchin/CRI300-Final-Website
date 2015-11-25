@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	 <link rel="shortcut icon" type="image/x-icon" href="img/coffee.png" />
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script>
 	$(function() {
 	  $('a[href*=#]:not([href=#])').click(function() {
@@ -40,11 +41,11 @@
 		
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default" role="navigation">
-		  <div class="container">
+		  <div class="container-fluid">
 		    
 		    <!-- BUTTON -->
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hey" href="#navbar-main-collapse" aria-expanded="false">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#hey">
 		      	<i class="fa fa-bars" style="color:black"></i>
 		      </button>
 		    </div>
@@ -53,12 +54,12 @@
 			<div class="collapse navbar-collapse navbar-right" id="hey">
       			<p class="navlinks">
       			<ul class="nav navbar-nav">
-      				<li><a href="index.html"><i class="fa fa-coffee"></i></a></li>
-        			<li><a href="about.html">About</a></li>
-        			<li><a href="blog.html">Blog</a></li>
-        			<li><i class="fa fa-facebook-square fa-2x socials"></i></li>
-        			<li><i class="fa fa-twitter fa-2x socials"></i></li>
-        			<li><i class="fa fa-instagram fa-2x socials"></i></li>
+      				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html"><i class="fa fa-coffee"></i></a></li>
+        			<li class="dropdown"><a href="about.html">About</a></li>
+        			<li class="dropdown"><a href="blog.html">Blog</a></li>
+        			<li class="dropdown"><i class="fa fa-facebook-square fa-2x socials"></i></li>
+        			<li class="dropdown"><i class="fa fa-twitter fa-2x socials"></i></li>
+        			<li class="dropdown"><i class="fa fa-instagram fa-2x socials"></i></li>
         		</ul>
         		</p>
         	</div>
