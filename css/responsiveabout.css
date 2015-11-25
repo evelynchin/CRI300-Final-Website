@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+
+.title {
+		color:green;
+	}
+
+.post {
+	font-size: 18px;
+}
+
+.footlink {
+	font-size: 15px;
+}
+
+.footertext{ 
+	font-size: 15px;
+}
+
+}

@@ -1,0 +1,194 @@
+<html lang="en"> 
+<head>
+	<title>Coffee Crush</title>	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	 <link rel="shortcut icon" type="image/x-icon" href="img/coffee.png" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>   
+	<script type="text/javascript" href="js/bootstrap.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  	<script src="js/parallax.js"></script>
+</head>
+<body> 
+	<!-- PHOTO BACKGROUND -->
+
+	<div class="landing">
+		
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-default" role="navigation">
+		  <div class="container">
+		    
+		    <!-- BUTTON -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main-collapse">
+		      	<i class="fa fa-bars" style="color:black"></i>
+		      </button>
+		    </div>
+			
+			<!-- NAV LINKS -->
+			<div class="collapse navbar-collapse navbar-right" id="navbar-main-collapse">
+      			<p class="navlinks">
+      			<ul class="nav navbar-nav">
+      				<li><a href="index.html"><i class="fa fa-coffee"></i></a></li>
+        			<li><a href="about.html">About</a></li>
+        			<li><a href="blog.html">Blog</a></li>
+        			<li><i class="fa fa-facebook-square fa-2x socials"></i></li>
+        			<li><i class="fa fa-twitter fa-2x socials"></i></li>
+        			<li><i class="fa fa-instagram fa-2x socials"></i></li>
+        		</ul>
+        		</p>
+        	</div>
+
+    		</div>
+		 </nav>
+
+	<div class="container-fluid containerlanding">
+			<div class="row">
+				<div class="col-md-2 col-sm-2 col-xs-2"></div>
+				<div class="col-md-8 col-sm-8 col-xs-8">
+					<h1 class="title">COFFEE CRUSH</h1>	
+					<h2 class="tagline">Quality coffee delivered monthly to your home.</h2>
+					<a href="#destination" class="morebutton">FIND OUT MORE <i class="fa fa-angle-double-right"></i></a>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-2"></div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div id="destination" class="container2">
+		<div class="row">
+			<div class="col-md-2 col-sm-2 col-xs-2"></div>
+			<div class="col-md-8 col-sm-8 col-xs-8">
+				<h3 class="heading">We <i class="fa fa-heart"></i> high quality coffee just as much as you do.</h3> 
+				<br><p class="thinheading">Get quality beans from around the world delivered straight to your door.<br>
+				<a href="#destination2" class="thinheading socials"><i class="fa fa-angle-double-down fa-2x icons"></i></a></p>
+			</div>
+			<div class="col-md-2 col-sm-2 col-xs-2"></div>
+		</div>
+	</div>
+	</div>
+
+	<div class="art">
+		<div class="container2" id="destination2">
+			<div class="row">
+				<div class="col-xs-2"></div>
+					<div class="col-xs-8">
+						<p class="checks">
+						<i class="fa fa-check-square-o"></i>  Free Deliver
+						<br>
+						<i class="fa fa-check-square-o"></i>  Fair Trade
+						<br>
+						<i class="fa fa-check-square-o"></i>  Satisfaction Guaranteed<p>
+						<h3 class="howitworks">
+						<i class="fa fa-map-signs">   </i>How it Works<br>
+						<a href="#destination3" class="heading icons"><i class="fa fa-angle-double-down woodicon"></i></a></h3>
+					</div>
+				<div class="col-xs-2">
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="container2" id="destination3">
+		<div class="row">
+			<div class="col-xs-2"></div>
+			<div class="col-xs-8">
+					<p class="step"><i class="fa fa-pencil"></i> 1. Tell us about yourself!</p>
+					<p class="substep">Tell us what kind of coffee drinker you are.</p>
+					<br>
+					<a href="#step2" class="stepicon"><i class="fa fa-angle-double-down fa-2x"></i></a>
+			</div>
+			<div class="col-xs-2"></div>
+		</div>
+	</div>
+	
+	<div class="container2" id="step2">
+		<div class="row">
+			<div class="col-xs-2"></div>
+			<div class="col-xs-8">
+				<p class="step"><i class="fa fa-map-o"></i> 2. We deliver quality beans to your door.</p>
+				<p class="substep">Free delivery every month.</p>
+				<br>
+				<a href="#step3" class="stepicon"><i class="fa fa-angle-double-down fa-2x icons"></i></a>
+			</div>
+			<div class="col-xs-2"></div>
+		</div>
+	</div>
+	
+	<div class="container2" id="step3">
+		<div class="row">
+			<div class="col-xs-2"></div>
+			<div class="col-xs-8">
+				<p class="step"><i class="fa fa-coffee"></i> 3. Enjoy your beans!</p>
+				<p class="substep">Each delivery brews a month supply of coffee.</p>
+				<br>
+				<a href="#step4" class="stepicon"><i class="fa fa-angle-double-down fa-2x icons"></i></a>
+			</div>
+			<div class="col-xs-2"></div>
+		</div>
+	</div>
+
+	<div class="container2" id="step4">
+		<div class="row">
+			<div class="col-xs-2"></div>
+			<div class="col-xs-8">
+				<p class="step"><i class="fa fa-thumbs-up"></i> 4. Tell us what you think.</p>
+				<p class="substep">Rate the beans you received so we can send you coffee tailored to your taste!</p>
+				<a href="#action" class="stepicon"><i class="fa fa-angle-double-down fa-2x icons"></i></a>
+			</div>
+			<div class="col-xs-2"></div>
+		</div>
+	</div>
+
+	<div id="action">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2"></div>
+				<div class="col-xs-8">
+					<h1 href="/" class="sign">SIGN UP TODAY</h1>
+				</div>
+				<div class="col-xs-2"></div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<p class="footertext">
+					<a href="index.html" class="footlink"><i class="fa fa-coffee"></i></a>    /    
+					<a href="about.html" class="footlink">About</a>    /    <a href="blog.html" class="footlink">Blog</a class="footertext">    /    Made with <i class="fa fa-heart"></i> in Toronto
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

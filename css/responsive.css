@@ -1,0 +1,78 @@
+@media screen and (max-width: 1008px) {
+
+.title {
+	color:pink;
+}
+
+.container2 {
+	height:100vh;
+}
+
+.heading {
+	font-size: 50px;
+}
+
+.thinheading { 
+	font-size: 45px;
+}
+
+.checks {
+	font-size: 40px;
+}
+
+.howitworks {
+	font-size:45px;
+}
+
+@media screen and (max-width: 768px) {
+
+.title {
+	color:green;
+	font-size: 45px;
+}
+
+.subtitle {
+	font-size: 25px;
+}
+
+.morebutton {
+	font-size: 20px;
+	text-align: center;
+}
+
+.heading {
+	font-size: 40px;
+}
+
+.thinheading { 
+	font-size: 35px;
+}
+
+.checks {
+	font-size: 30px;
+}
+
+.howitworks {
+	font-size: 35px;
+}
+
+.step { 
+	font-size: 40px;
+}
+.substep { 
+	font-size: 30px;
+}
+
+.sign {
+	font-size: 40px;
+}
+
+.footlink {
+	font-size: 15px;
+}
+
+.footertext{ 
+	font-size: 15px;
+}
+
+}

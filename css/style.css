@@ -1,0 +1,230 @@
+/**  NAV BAR **/
+.navbar-default {
+	background-color: transparent;
+	border:none;
+	padding-top: 20px;
+	padding-right:20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family:"Roboto Slab";
+	font-size: 20px; 
+	color:black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color:#67bba4;
+	text-decoration: none;
+}
+
+/** 1 LANDING COFFEE CRUSH **/
+
+.landing {
+	background-image: url(../img/coffee.jpg);
+	height: 100vh;
+	position: center;
+	background-size: cover;
+}
+
+.containerlanding {
+ 	padding-top: 10%;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.title {
+	font-family:"Montserrat";
+	font-weight: 900;
+	font-size: 90px;
+	margin-bottom: 0%;
+	line-height: 85%;
+	color:black;
+}
+
+.tagline {
+	font-family: "Roboto Slab";
+	font-weight: 900;
+	font-size: 30px;
+	margin-top: 0%;
+	margin-bottom: 15px;
+	color:black;
+}
+
+.morebutton {
+	border: black 3px solid;
+	font-weight: 400;
+	font-family: "Roboto Slab";
+	padding:7;
+ 	color:black;
+ 	font-size: 25px;
+ 	padding:7px;
+}
+
+.morebutton:hover {
+	border: #67bba4 3px solid;
+ 	color:#67bba4;
+ 	text-decoration: none;
+}
+
+.socials {
+	color:black;
+	padding-top: 10px;
+	padding-left: 7px;
+}
+
+.socials:hover {
+	color:#67bba4;
+}
+
+/** 2 WE HEART COFFEE **/ 
+
+.container2 {
+	height:100vh;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.heading {
+	font-family: "Montserrat";
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 90%;
+	text-align: center;
+	color:black;
+}
+
+.fa-heart:hover {
+	color:pink;
+}
+
+.thinheading {
+	font-family: "Montserrat";
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 100%;
+	text-align: center;
+	color:black;
+}
+
+/** 3 WOOD **/
+
+.art {
+	background: url(https://c2.staticflickr.com/4/3917/14342363925_a97859d9b7_b.jpg);
+	height: 100vh;
+	background-size: cover;
+	position: center;
+	opacity: 0.8;
+}
+
+.checks {
+	font-weight: 600;
+	font-family: "Roboto Slab";
+ 	color:black;
+ 	font-size: 50px;
+ 	line-height: 90%;
+ 	text-align: center;
+}
+
+.howitworks {
+	font-family: "Montserrat";
+	font-size: 54px;
+	font-weight: 700;
+	color:black;
+	line-height: 90%;
+	text-align: center;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+
+.woodicon {
+	padding-top: 0px;
+	color:black;
+}
+
+.woodicon:hover {
+	color:#67bba4;
+}
+
+/** STEP 1 **/ 
+
+.step {
+	font-family: "Montserrat";
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 95%;
+	color:black;
+	text-align: center;
+	line-height: 100%;
+}
+
+.substep {
+	font-family: "Roboto Slab";
+	font-size: 40px;
+	font-weight: 400;
+	color:black;
+	line-height: 100%;
+	text-align: center;
+}
+
+.stepicon {
+	color:black;
+	font-size: 40px;
+	text-align: center;
+	padding-left: 45%;
+}
+
+.stepicon:hover {
+	color:#67bba4;
+}
+
+/** CALL TO ACTION **/
+
+#action {
+	background-image: url("../img/coffee4.jpg");
+	height: 90Vh;
+	position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.sign {
+	font-family:"Montserrat";
+	font-weight: 900;
+	font-size: 80px;
+	color:black;	
+	text-align: center;
+	border:5px black solid;
+	padding:5px 10px;
+}
+
+/** FOOTER **/
+	
+footer {
+	background-color: black;
+	height:10vh;
+
+}
+
+.footertext {
+	font-family:"Roboto Slab";
+	font-weight: 500;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color:white;
+}
+
+.footlink {
+	color:white;
+}
+
+.footlink:hover {
+	color:#67bba4;
+	text-decoration: none;
+}
