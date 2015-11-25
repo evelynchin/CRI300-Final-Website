@@ -1,9 +1,5 @@
 @media screen and (max-width: 1008px) {
 
-.title {
-	color:pink;
-}
-
 .container2 {
 	height:100vh;
 }
@@ -27,7 +23,6 @@
 @media screen and (max-width: 768px) {
 
 .title {
-	color:green;
 	font-size: 45px;
 }
 
