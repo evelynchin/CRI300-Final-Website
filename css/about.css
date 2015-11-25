@@ -32,6 +32,13 @@
 	color:#67bba4;
 }
 
+.navbar-nav > .dropdown {
+	text-align: center;
+	background-color: white;
+	margin-top: 0px;
+	padding-bottom: 5px;
+}	
+
 /** ABOUT **/
 
 .title {

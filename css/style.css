@@ -17,6 +17,13 @@
 	text-decoration: none;
 }
 
+.navbar-nav > .dropdown {
+	text-align: center;
+	background-color: white;
+	margin-top: 0px;
+	padding-bottom: 5px;
+}	
+
 /** 1 LANDING COFFEE CRUSH **/
 
 .landing {

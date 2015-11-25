@@ -23,6 +23,13 @@
 	color:black;
 }
 
+.navbar-nav > .dropdown {
+	text-align: center;
+	background-color: white;
+	margin-top: 0px;
+	padding-bottom: 5px;
+}	
+
 .socials {
 	padding-top: 10px;
 	padding-left: 10px;
